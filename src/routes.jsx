@@ -16,7 +16,7 @@ const Contact = React.lazy(() => import("./views/contactus/Contact_us"));
 const Blog = React.lazy(() => import("./views/blog/Blogpage"));
 const Blogdetailed = React.lazy(() => import("./views/blog/Blogdetailed"));
 const MyAccount = React.lazy(() => import("./views/account/MyAccount"));
-const ProductList = React.lazy(() => import("./views/shop/productlist"));
+const ProductList = React.lazy(() => import("./views/shop/ProductList"));
 const Wishlist = React.lazy(() => import("./views/Wishlist/Wishlist"));
 const Vendors = React.lazy(() => import("./views/Vendors/Vendors"));
 
