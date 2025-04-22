@@ -1,0 +1,91 @@
+.page404-wrapper {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f4f4f4 0%, #e0f7e9 100%);
+    animation: fadeInPage 1s ease;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+ 
+  
+  .page404-title {
+    font-size: 3rem;
+    color: red;
+    margin-top: 1rem;
+    font-weight: 700;
+    animation: slideUp 1s ease;
+  }
+  
+  .page404-description {
+    font-size: 1.2rem;
+    color: #444;
+    margin-top: 0.5rem;
+    animation: fadeInText 1.5s ease;
+  }
+  
+  .page404-button {
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    background-color: #007f27;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 127, 39, 0.3);
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  .page404-button:hover {
+    background-color: #005e1d;
+    transform: scale(1.05);
+  }
+  
+  /* Animations */
+  @keyframes fadeInPage {
+    from {
+      opacity: 0;
+      transform: scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInText {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  

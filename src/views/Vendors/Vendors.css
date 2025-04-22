@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(224, 224, 222, 0.534);
+  }
+  
+  .vendor-section {
+    width: 90%;
+  }
+  
+  .vendor-section h2 {
+    color: green;
+  }
+  
+  .vendor-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+  }
+  
+  .vendor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    background: rgba(0, 128, 0, 0.7); /* 👈 green background with opacity */
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .vendor-card:hover .overlay-text {
+    opacity: 1;
+  }
+  
