@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../../assets/css/MyAccount.css";
-import accountIcon from '../../assets/images/myAccount.png';
+import accountIcon from '../../assets/images/myaccount.png';
 import settingsIcon from '../../assets/images/account.png';
 import axios from 'axios';
 
